@@ -608,6 +608,40 @@
         ]
     },
     {
+        "name": "gilak/nolock",
+        "version": "1.0",
+        "version_normalized": "1.0.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/hasangilak/NoLock.git",
+            "reference": "a6849043fb85227871abee264eebb1f694f6cfdc"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/hasangilak/NoLock/zipball/a6849043fb85227871abee264eebb1f694f6cfdc",
+            "reference": "a6849043fb85227871abee264eebb1f694f6cfdc",
+            "shasum": ""
+        },
+        "time": "2016-01-11T20:18:33+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "NoLock\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "description": "get read of locking file in both laravel and the way laravel use league filesystem",
+        "keywords": [
+            "filesystem",
+            "lock",
+            "package"
+        ]
+    },
+    {
         "name": "hamcrest/hamcrest-php",
         "version": "v2.0.0",
         "version_normalized": "2.0.0.0",

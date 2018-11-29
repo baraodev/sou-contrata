@@ -64,6 +64,7 @@ class Helper
             'email' => $user_object->email,
             'permission' => $page,
         ];
+
         $request->session()->put('user', $userSession);
     }
 }

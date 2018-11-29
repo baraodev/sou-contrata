@@ -75,6 +75,7 @@ class ComposerStaticInit48878c1c1c28db9482fad7289e5b1c8f
         'N' => 
         array (
             'NunoMaduro\\Collision\\' => 21,
+            'NoLock\\' => 7,
         ),
         'M' => 
         array (
@@ -238,6 +239,10 @@ class ComposerStaticInit48878c1c1c28db9482fad7289e5b1c8f
         array (
             0 => __DIR__ . '/..' . '/nunomaduro/collision/src',
         ),
+        'NoLock\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/gilak/nolock/src',
+        ),
         'Monolog\\' => 
         array (
             0 => __DIR__ . '/..' . '/monolog/monolog/src/Monolog',
@@ -373,6 +378,7 @@ class ComposerStaticInit48878c1c1c28db9482fad7289e5b1c8f
         'App\\Http\\Controllers\\EdictController' => __DIR__ . '/../..' . '/app/Http/Controllers/EdictController.php',
         'App\\Http\\Controllers\\ListEditalController' => __DIR__ . '/../..' . '/app/Http/Controllers/ListEditalController.php',
         'App\\Http\\Controllers\\PersonalDataController' => __DIR__ . '/../..' . '/app/Http/Controllers/PersonalDataController.php',
+        'App\\Http\\Controllers\\PositionController' => __DIR__ . '/../..' . '/app/Http/Controllers/PositionController.php',
         'App\\Http\\Controllers\\ScholarityController' => __DIR__ . '/../..' . '/app/Http/Controllers/ScholarityController.php',
         'App\\Http\\Controllers\\ServiceController' => __DIR__ . '/../..' . '/app/Http/Controllers/ServiceController.php',
         'App\\Http\\Controllers\\UserController' => __DIR__ . '/../..' . '/app/Http/Controllers/UserController.php',
@@ -2080,6 +2086,9 @@ class ComposerStaticInit48878c1c1c28db9482fad7289e5b1c8f
         'Monolog\\ResettableInterface' => __DIR__ . '/..' . '/monolog/monolog/src/Monolog/ResettableInterface.php',
         'Monolog\\SignalHandler' => __DIR__ . '/..' . '/monolog/monolog/src/Monolog/SignalHandler.php',
         'Monolog\\Utils' => __DIR__ . '/..' . '/monolog/monolog/src/Monolog/Utils.php',
+        'NoLock\\FileSystemWithNoLockServiceProvider' => __DIR__ . '/..' . '/gilak/nolock/src/FileSystemWithNoLockServiceProvider.php',
+        'NoLock\\FilesystemManager' => __DIR__ . '/..' . '/gilak/nolock/src/FileSystemManagerWithNoLock.php',
+        'NoLock\\FilesystemWithNoLock' => __DIR__ . '/..' . '/gilak/nolock/src/FileSystemWithNoLock.php',
         'NunoMaduro\\Collision\\Adapters\\Laravel\\CollisionServiceProvider' => __DIR__ . '/..' . '/nunomaduro/collision/src/Adapters/Laravel/CollisionServiceProvider.php',
         'NunoMaduro\\Collision\\Adapters\\Laravel\\ExceptionHandler' => __DIR__ . '/..' . '/nunomaduro/collision/src/Adapters/Laravel/ExceptionHandler.php',
         'NunoMaduro\\Collision\\Adapters\\Laravel\\Inspector' => __DIR__ . '/..' . '/nunomaduro/collision/src/Adapters/Laravel/Inspector.php',
